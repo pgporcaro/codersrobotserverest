@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-04-23T02:15:29.720879" rpa="false" schemaversion="5">
+<suite id="s1" name="Testes Serverest" source="C:\Users\Windows 11\Documents\ProjetoTestandoFrontendRobotFramework\tests\testes_serverest.robot">
+<test id="s1-t1" name="Cenário de Teste : Cadastro de usuário administrador" line="5">
+<kw name="Passo 1 - Acessar a página de login ServeRest" owner="testes_recursos_serverest">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-04-23T02:15:30.085706" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<msg time="2024-04-23T02:15:30.591547" level="WARN">The chromedriver version (123.0.6312.122) detected in PATH at C:\Users\Windows 11\AppData\Local\Programs\Python\Python312\Scripts\chromedriver.exe might not be compatible with the detected chrome version (124.0.6367.61); currently, chromedriver 124.0.6367.60 is recommended for chrome 124.*, so it is advised to delete the driver in PATH and retry</msg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-04-23T02:15:30.085706" elapsed="2.075583"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-04-23T02:15:32.161289" elapsed="0.214242"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2024-04-23T02:15:32.375531" level="INFO">Opening url 'https://front.serverest.dev/login'</msg>
+<arg>url=https://front.serverest.dev/login</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2024-04-23T02:15:32.375531" elapsed="0.551179"/>
+</kw>
+<status status="PASS" start="2024-04-23T02:15:30.084701" elapsed="2.842009"/>
+</kw>
+<status status="PASS" start="2024-04-23T02:15:30.083707" elapsed="2.854996"/>
+</test>
+<status status="PASS" start="2024-04-23T02:15:29.720879" elapsed="3.219565"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Testes Serverest">Testes Serverest</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-04-23T02:15:30.591547" level="WARN">The chromedriver version (123.0.6312.122) detected in PATH at C:\Users\Windows 11\AppData\Local\Programs\Python\Python312\Scripts\chromedriver.exe might not be compatible with the detected chrome version (124.0.6367.61); currently, chromedriver 124.0.6367.60 is recommended for chrome 124.*, so it is advised to delete the driver in PATH and retry</msg>
+</errors>
+</robot>
